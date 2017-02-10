@@ -44,14 +44,16 @@ function setParcial($parcial){
        return $this->mejoramiento;
      } 
     
-         } 
+         
   function setAprobado($aprobado){
        $this->aprobado = $aprobado;
      } 
+
      function getAprobado(){
        return $this->aprobado;
      } 
     
-
+ } 
+    
 
 ?> 
