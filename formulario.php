@@ -22,7 +22,7 @@
                    <input type="text" name="parcial">
                      <br>
                       <label>Final</label>
-                   <input type="text" name="finall">
+                   <input type="text" name="finale">
                      <br>
                       <label>Parcial</label>
                    <input type="text" name="mejoramiento">

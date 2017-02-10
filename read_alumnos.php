@@ -24,7 +24,6 @@ $alumnoCollectorObj = new alumnoCollector();
    
     <table>
         <tr>    
-            <th>ID</th>
             <th>NOMBRE</th>
             <th>Parcial</th>
             <th>Final</th>

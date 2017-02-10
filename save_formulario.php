@@ -3,14 +3,14 @@ include_once("alumnoCollector.php");
 
 $nombre = $_POST['nombre'];
 $parcial = $_POST['parcial'];
-$final = $_POST['final'];
+$finale = $_POST['finale'];
 $mejoramiento = $_POST['mejoramiento'];
-$aprobado = $_POST['aprobado'];
+$aprobado = 'TRUE';
 
 $alumnoCollectorObj = new alumnoCollector();
 ?>
 
-<!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -22,9 +22,9 @@ $alumnoCollectorObj = new alumnoCollector();
     <body>
         <?php
         echo "<p>Creado</p>";
-        $alumnoCollectorObj->createMina($nombre,$id_empresa,$ubicacion);
+        $alumnoCollectorObj->createAlumno($nombre,$parcial,$finale,$mejoramiento,$aprobado);
         ?>
-        <a href="read_alumno.php"><button>VOLVER</button></a>
+        <a href="read_alumnos.php"><button>VOLVER</button></a>
        
   
     </body>
